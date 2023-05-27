@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:hint="Enter Website Address"
+    android:id="@+id/txt1"
+    ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="OpenWebsite"
+        android:id="@+id/b1"
+        android:onClick="fun1"
+        ></Button>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Mobile Number"
+        android:inputType="number"
+        android:id="@+id/txt2"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Call"
+        android:id="@+id/b2"
+        android:onClick="fun2"
+        ></Button>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Enter any Text"
+        android:id="@+id/txt3"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Share"
+        android:id="@+id/b3"
+        android:onClick="fun3"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Send SMS"
+        android:id="@+id/b4"
+        android:onClick="fun4"
+        ></Button>
+
+
+</LinearLayout>
